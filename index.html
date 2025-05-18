@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tic-Tac-Toe</h1>
+    <nav>
+      <ul>
+        <li><a href="#game-section" class="active">Play</a></li>
+        <li><a href="#about-section">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="game-section">
+      <div class="mode-select">
+        <button id="pvpBtn">Player vs Player</button>
+        <button id="aiBtn">Player vs AI</button>
+      </div>
+      <div id="board" class="board"></div>
+      <div id="status" class="status">Choose a mode to start</div>
+      <button id="resetBtn" disabled>Reset Game</button>
+    </section>
+    <section id="about-section">
+      <h2>About This Game</h2>
+      <p>
+        This Tic-Tac-Toe web app allows you to play against another player or
+        against a simple AI opponent. It’s built using modern HTML, CSS, and JavaScript techniques,
+        featuring a responsive, interactive UI and a clean user experience.
+      </p>
+      <p>
+        Choose the mode you want and start playing! Reset the game anytime with the reset button.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
